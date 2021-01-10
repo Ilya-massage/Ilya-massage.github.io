@@ -27,7 +27,7 @@ document.body.appendChild(hello);
 
 let helloRender = new Promise((resolve, _) => {
     renderTypeWriterText(
-        text = "Hi, i'm Rashka",
+        text = "Привет! Меня зовут Илья",
         selector = ".hello",
         speed = TYPING_SPEED,
         resolve,
@@ -44,7 +44,7 @@ helloRender.then(() => {
         setTimeout(
             renderTypeWriterText,
             speed = 500,
-            text = "the C/Golang developer Domclick",
+            text = "Я являюсь спортивным массажистом",
             selector = ".developer",
             speed = TYPING_SPEED,
             resolve,
@@ -72,15 +72,13 @@ helloRender.then(() => {
 
             const linksMapping = [
                 ["static/opengl.png", ""],
-                ["static/tg.png", "https://t.me/rasha108bick"],
+                ["static/tg.png", "https://t.me/ilya_bagrov"],
                 ["static/opengl.png", ""],
-                ["static/ln.png", "www.linkedin.com/in/rasha108"],
+                ["static/gh.png", "https://github.com/Ilya-massage"],
                 ["static/opengl.png", ""],
-                ["static/gh.png", "https://github.com/rasha108"],
+                ["static/ig.png", "https://instagram.com/bagrov_health"],
                 ["static/opengl.png", ""],
-                ["static/ig.png", "https://instagram.com/rasha108bick"],
-                ["static/opengl.png", ""],
-                ["static/vk.png", "https://vk.com/id252820782"],
+                ["static/vk.png", "https://vk.com/ilya__massage"],
                 ["static/opengl.png", ""],
             ];
 
@@ -110,7 +108,7 @@ helloRender.then(() => {
                 setTimeout(
                     renderTypeWriterText,
                     speed = 300,
-                    text = "questions?",
+                    text = "по всем вопросам, прощу обращаться по контактам указанным ниже!",
                     selector = ".write-me",
                     speed = TYPING_SPEED,
                     () => { },

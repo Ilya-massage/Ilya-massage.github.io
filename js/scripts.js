@@ -61,7 +61,7 @@ helloRender.then(() => {
             setTimeout(
                 renderTypeWriterText,
                 speed = 500,
-                text = "по всем вопросам, прощу обращаться по контактам указанным ниже!",
+                text = "по всем вопросам, обращаться по контактам указанным ниже!",
                 selector = ".about-me",
                 speed = TYPING_SPEED,
                 resolve,
@@ -76,7 +76,7 @@ helloRender.then(() => {
                 ["static/opengl.png", ""],
                 ["static/ig.png", "https://instagram.com/bagrov_health"],
                 ["static/opengl.png", ""],
-                ["static/vk.png", "https://vk.com/ilya__massage"],
+                ["static/vk.png", "https://vk.com/ilya___massage"],
                 ["static/opengl.png", ""],
             ];
 
@@ -95,22 +95,6 @@ helloRender.then(() => {
                     }
                 };
                 recursive();
-            });
-
-            linksRender.then(() => {
-                const writeMe = document.createElement("a");
-                writeMe.className = "write-me";
-                writeMe.href = "https://mail.google.com/bagrov1995@gmail.com";
-                document.body.appendChild(writeMe);
-
-                setTimeout(
-                    renderTypeWriterText,
-                    speed = 300,
-                    text = "Впоросы?",
-                    selector = ".write-me",
-                    speed = TYPING_SPEED,
-                    () => { },
-                );
             });
         });
     });

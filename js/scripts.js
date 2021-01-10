@@ -74,8 +74,6 @@ helloRender.then(() => {
                 ["static/opengl.png", ""],
                 ["static/tg.png", "https://t.me/ilya_bagrov"],
                 ["static/opengl.png", ""],
-                ["static/gh.png", "https://github.com/Ilya-massage"],
-                ["static/opengl.png", ""],
                 ["static/ig.png", "https://instagram.com/bagrov_health"],
                 ["static/opengl.png", ""],
                 ["static/vk.png", "https://vk.com/ilya__massage"],

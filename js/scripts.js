@@ -61,7 +61,7 @@ helloRender.then(() => {
             setTimeout(
                 renderTypeWriterText,
                 speed = 500,
-                text = "my contacts",
+                text = "по всем вопросам, прощу обращаться по контактам указанным ниже!",
                 selector = ".about-me",
                 speed = TYPING_SPEED,
                 resolve,
@@ -102,13 +102,13 @@ helloRender.then(() => {
             linksRender.then(() => {
                 const writeMe = document.createElement("a");
                 writeMe.className = "write-me";
-                writeMe.href = "https://mail.google.com/rashid1995bik@gmail.com";
+                writeMe.href = "https://mail.google.com/bagrov1995@gmail.com";
                 document.body.appendChild(writeMe);
 
                 setTimeout(
                     renderTypeWriterText,
                     speed = 300,
-                    text = "по всем вопросам, прощу обращаться по контактам указанным ниже!",
+                    text = "Впоросы?",
                     selector = ".write-me",
                     speed = TYPING_SPEED,
                     () => { },
